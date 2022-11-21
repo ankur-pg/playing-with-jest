@@ -2,4 +2,8 @@ const sum = (a, b) => {
     return a+b
 }
 
-export default sum
+const getData = async (a, b) => {
+    return sum(a, b)
+}
+
+module.exports = { sum, getData }
